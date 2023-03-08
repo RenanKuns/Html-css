@@ -1,6 +1,26 @@
 /*
 Teste
 */
-body{
-    background-color: chocolate;
+/*Smartphone portrait*/
+
+/* Samrtphone landscape*/
+@media screen and (min-width: 576px) {
+    body{
+        background-color: black;
+    }
+}
+/*Tablet Portrait*/
+@media screen and (min-width: 768px){
+    body{
+        background-color: chartreuse;
+}
+/*Tablet landscape*/
+@media screen and (min-width: 992px){
+    body{
+        background-color:darkblue;
+}
+/*PC*/
+@media screen and (min-width: 1200px){
+    body{
+        background-color:green;
 }
