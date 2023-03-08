@@ -1,29 +1,84 @@
 /*
-Teste
+    Teste
 */
-/*Smartphone portrait*/
 
-/* Samrtphone landscape*/
+/*
+    Import de fonte
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/*
+    CSS Reset
+*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+/*
+/*
+    Layout
+*/
+.Container{
+    margin:0 auto;
+    background-color: crimson;
+}
+/*
+Smartphone portrait
+*/
+/* 
+    Samrtphone landscape
+*/
 @media screen and (min-width: 576px) {
     body{
         background-color:orange;
     }
+    /* Layout */
+.Container{
+    max-width: 540px;
+    }
 }
-/*Tablet Portrait*/
+
+/*
+    Tablet Portrait
+*/
+
 @media screen and (min-width: 768px){
     body{
         background-color: chartreuse;
     }
-}    
-/*Tablet landscape*/
+    /* Layout */
+.Container{
+    max-width: 540px;
+    }
+}
+/*
+    Tablet landscape
+*/
+
 @media screen and (min-width: 992px){
     body{
         background-color:darkblue;
     }
-}    
-/*PC*/
+    /* Layout */
+.Container{
+    max-width: 540px;
+    }
+}  
+
+/*
+    PC
+*/
 @media screen and (min-width: 1200px){
     body{
         background-color:green;
     }
+    /* Layout */
+.Container{
+    max-width: 540px;
+} 
 }
